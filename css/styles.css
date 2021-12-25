@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+}
+body{
+    background: hsl(217, 54%, 11%);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    margin-top: 1rem;
+    display: flex;
+    background: hsl(216, 50%, 16%);
+    max-width: 416px;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 18px;
+    box-shadow: 0px 30px 15px rgba(1, 10, 20, 0.726);
+
+}
+main #topimage{
+    width: 80%;
+    border-radius: 10px;
+    margin: 2rem 2.5rem;
+}
+main h1{
+    align-content: flex-end;
+    justify-content: left;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+main p{
+    align-content: flex-end;
+    justify-content: left;
+    color: hsl(215, 51%, 70%);
+    text-align: left;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+main section{
+    margin: 1rem 2.5rem;
+}
+#pricediv{
+
+display: flex;
+flex-direction: row;
+}
+#pricediv h2{
+    margin-left: 0.5rem;
+    color: hsl(178, 100%, 50%);
+    margin-right: 5rem;
+}
+main div img{
+    width: 6%;
+    height: 6%;
+    
+    
+}
+#pricediv p{
+    margin-left: 0.5rem;
+
+}
+#avatar{
+    margin-top: 0.8rem;
+
+    width: 10%;
+    border-color: #fff;
+}
+#creator{
+    display: flex;
+    align-content: center;
+
+    flex-direction: row;
+}
+#creatorspan{
+   margin: 20px;
+   color: hsl(215, 51%, 70%);
+}
+#a{
+    text-decoration: none;
+
+    color: hsl(0, 0%, 100%);
+
+}
+main hr{
+    margin-top: 1rem;
+    margin-right: 15px;
+
+}
